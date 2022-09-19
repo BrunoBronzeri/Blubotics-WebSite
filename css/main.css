@@ -15,36 +15,38 @@ ul{
 }
 main{
     margin: 0 auto;
-    width: 980px;
+    width: 100%;
     position: relative;
 }
 .logo{
     float: left;
     width: 75%;
+    margin-left: 7%;
 }
 .redes-sociais ul li{
-    margin-left: 12px;
+    margin-left: 23px;
     /* display: inline-block; */
     float: left;
     list-style: none;
     /*list-style para tirar na mão*/
 }
 .redes-sociais{
-    margin-top: 20px;
+    margin-top: 35px;
     width: 25%;
     float: left;
+    margin-left: -7%;
 }
 /* https://necolas.github.io/normalize.css/ #html #css #javascript --> Normalize  */ 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .header02{
     background-color: #ffff;
-    width: 980px;
+    width: 100%;
     margin: 0 auto;
     padding: 3px;
 }
 .menu_urls{
     height: 50px;
-    border-bottom: 3px solid #efefef;
+    border-bottom: 3px solid rgba(230, 229, 229, 0.8);
 }
 .colum_100{
     width: 100%;
@@ -54,7 +56,7 @@ main{
 .menu ul li{
     display: inline-block;
     color: #393636;
-    margin-left: 25px;
+    margin-left: 80px;
     height: 35px;
 }
 .menu ul li a{
@@ -85,10 +87,11 @@ main{
     background-image: url('../img/search_icon.png');
     background-repeat: no-repeat;
     background-position: 95%;
-    margin-top: 10px;
-    height: 25px;
+    font-size: 12px;
+    margin-top: 5px;
+    height: 30px;
     padding: 10px;
-    width: 190px;
+    width: 200px;
     border: 2px solid #393636;
 }
 
@@ -97,7 +100,7 @@ main{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: static;
   margin: auto;
 }
@@ -125,7 +128,7 @@ main{
   position: absolute;
   top: 63%;
   width: auto;
-  left: 81.3%;
+  left: 96.5%;
   padding: 12px;
   color: #009ecf;
   font-size: 40px;
