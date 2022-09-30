@@ -1,101 +1,103 @@
 body{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    font-family: 'Disket Mono';
-    background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Disket Mono';
+  background-color: whitesmoke;
 }
 ul{
-    padding: 0px; /*reseta padding padrão do brownser. possibilitando centralização do menu no header02 */
+  padding: 0px; /*reseta padding padrão do brownser. possibilitando centralização do menu no header02 */
 }
 .menu-principal {
-    width: 100%;
-    background-color: #272727;
-    height: 130px;
+  width: 100%;
+  background-color: #272727;
+  height: 130px;
 }
 main{
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
 }
 .logo{
-    float: left;
-    width: 75%;
-    margin-left: 7%;
+  float: left;
+  width: 75%;
+  margin-left: 7%;
 }
 .redes-sociais ul li{
-    margin-left: 23px;
-    /* display: inline-block; */
-    float: left;
-    list-style: none;
-    /*list-style para tirar na mão*/
+  margin-left: 5%;
+  /* display: inline-block; */
+  float: left;
+  list-style: none;
+  /*list-style para tirar na mão*/
 }
 .redes-sociais{
-    margin-top: 35px;
-    width: 25%;
-    float: left;
-    margin-left: -7%;
+  margin-top: 3%;
+  width: 25%;
+  float: left;
+  margin-left: -7%;
 }
 /* https://necolas.github.io/normalize.css/ #html #css #javascript --> Normalize  */ 
 /*------------------------------------------------------------------------------------------------------------------------------------------*/
 .header02{
-    background-color: #ffff;
-    width: 100%;
-    margin: 0 auto;
-    padding: 3px;
+  background-color: #ffff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3px;
 }
 .menu_urls{
-    height: 50px;
-    border-bottom: 3px solid rgba(230, 229, 229, 0.8);
+  height: 50px;
+  border-bottom: 3px solid rgba(230, 229, 229, 0.8);
 }
 .colum_100{
-    width: 100%;
-    /*float: left;*/
-    position: relative;
+  width: 100%;
+  position: relative;
+}
+.menu{
+  width: 50px;
 }
 .menu ul li{
-    display: inline-block;
-    color: #393636;
-    margin-left: 80px;
-    height: 35px;
+  display: inline-block;
+  color: #393636;
+  margin-left: 30px;
+  height: 35px;
 }
 .menu ul li a{
-    color: #393636;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Disket Mono';
-    text-transform: uppercase;
+  color: #393636;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Disket Mono';
+  text-transform: uppercase;
 }
 /* local para alterar a cor do item selecionado no menu */
 .menu ul li:hover{
-    border-bottom: 2px solid #009ecf;
+  border-bottom: 2px solid #009ecf;
 }
 .menu ul li a:hover{
-    color: #009ecf;
+  color: #009ecf;
 }
 /* ------------------------------------------------------------------------------------------------------------------ */
 .menu{
-    width: 70%;
-    float: left;
+  width: 70%;
+  float: left;
 }
 .search{
-    width: 30%;
-    float: right;
-    text-align: center;
+  width: 30%;
+  float: right;
+  text-align: center;
 }
 .search input{
-    background-image: url('../img/search_icon.png');
-    background-repeat: no-repeat;
-    background-position: 95%;
-    font-size: 12px;
-    margin-top: 5px;
-    height: 30px;
-    padding: 10px;
-    width: 200px;
-    border: 2px solid #393636;
+  background-image: url('../img/search_icon.png');
+  background-repeat: no-repeat;
+  background-position: 95%;
+  font-size: 12px;
+  margin-top: 5px;
+  height: 30px;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #393636;
 }
 
-/*-----------------------------Carousel-------------------------------*/
+/*----------------------------------------------------Carousel------------------------------------------------------*/
 *{box-sizing: border-box;}
 
 /* Slideshow container */
@@ -108,13 +110,13 @@ main{
 .mySlides {
   display: inline-block;
 }
-/* Next & previous buttons */
 .prev{
   cursor: auto;
   position: absolute;
-  top: 63%;
+  margin-top: 30%;
+  float: inline-start;
   width: auto;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 12px;
   color: #009ecf;
   font-size: 40px;
@@ -126,7 +128,8 @@ main{
 .next {
   cursor: auto;
   position: absolute;
-  top: 63%;
+  margin-top: 30%;
+  float: inline-end;
   width: auto;
   left: 96.5%;
   padding: 12px;
