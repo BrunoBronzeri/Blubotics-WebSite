@@ -64,22 +64,27 @@ main {
 }
 
 .menu {
-  width: 50px;
+  max-width: 100%;
   text-align: center;
-  height: 48px;
+  height: 30px;
 }
+
+/* .menu ul{
+  float: left;
+} */
 
 .menu ul li {
   display: inline-block;
   color: #393636;
-  margin-left: 5%;
+  margin-inline-start: 5%;
   height: 35px;
+  /* border-right-style: ridge; */
 }
 
 .menu ul li a {
   color: #393636;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Disket Mono';
   text-transform: uppercase;
 }
@@ -94,7 +99,7 @@ main {
 }
 
 /* --------------------------------------------------------search---------------------------------------------------------- */
-.menu {
+/* .menu {
   width: 70%;
   float: left;
 }
@@ -116,7 +121,7 @@ main {
   width: 200px;
   border: 2px solid #393636;
   border-radius: 5px;
-}
+} */
 
 /*----------------------------------------------------Carousel------------------------------------------------------*/
 * {
@@ -138,13 +143,13 @@ main {
 .prev {
   cursor: auto;
   position: absolute;
-  margin-top: 12.5%;
+  margin-top: 14.5%;
   float: inline-start;
   width: auto;
   flex-wrap: nowrap;
-  padding: 15px;
+  padding: 10px;
   color: #009ecf;
-  font-size: 30px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 5px 5px 0;
   user-select: none;
@@ -154,12 +159,12 @@ main {
 .next {
   cursor: auto;
   position: absolute;
-  margin-top: 12.5%;
+  margin-top: 14.5%;
   width: auto;
-  right: 2px;
-  padding: 15px;
+  right: 0.5px;
+  padding: 10px;
   color: #009ecf;
-  font-size: 30px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 5px 5px 0;
   user-select: none;
@@ -184,6 +189,7 @@ a .next{
   padding: 8px 12px;
   position: relative;
   background-color: #009ecf;
+  /* background-image: linear-gradient(rgba(0, 16, 137, 0.442), #009ecf); */
   margin-bottom: 1%;
   bottom: 8px;
   width: 100%;
@@ -246,10 +252,10 @@ a .next{
 }
 
 .blb b {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .blb b1 {
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
 }
