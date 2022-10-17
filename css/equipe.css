@@ -59,11 +59,12 @@
   }
 #social{
     width:8%;
-    transition: 1.0s;
+    transition: 0.5s;
 }
   #social:hover {
     
-    opacity: 70%;
+    /*opacity: 70%;*/
+    filter: invert(1);
   }
 footer {
     padding-top: 5%;
