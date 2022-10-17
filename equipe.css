@@ -1,0 +1,71 @@
+    /* li {
+        float: left;
+        display: block;
+        padding: 1%;
+        text-align: center;
+    } */
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 5%;
+    margin-left: 13.33%;
+    margin-top:5%;
+    padding: 0 8px;
+  }
+  .column-eqp {
+    float: left;
+    width: 32%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-top:5%;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 50%;
+    object-fit: fill;
+  }
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+#social{
+    width:8%;
+    transition: 0.5s;
+}
+  #social:hover {
+    
+    /*opacity: 70%;*/
+    filter: invert(1);
+  }
+footer {
+    padding-top: 5%;
+}
